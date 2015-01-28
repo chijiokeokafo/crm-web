@@ -1,0 +1,21 @@
+.nav{
+	background-color: orange;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+
+.column-left{ 
+	float: left; width: 50%;
+	background-color: green; 
+	margin-left: 0;
+	min-height: 1200px;
+}
+.column-right{ 
+	float: right; width: 50%;
+	background-color: blue;
+	margin-right: 0;
+	min-height: 1200px; 
+}

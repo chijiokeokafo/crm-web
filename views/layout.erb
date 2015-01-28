@@ -1,23 +1,29 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Layoutpage</title>
-		<header>
-				This is my header
-		</header>
-		<nav>
-			this is my nav
-		</nav>
-	</head>
-	<body>
-		<%= yield %>
+<head>
+	<meta charset="UTF-8">
+	<title>Bitmakers CRM</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<nav>
+		<div class="nav">
+			<a href="/">HOME</a> |
+			<a href="/contacts">VIEW ALL CONTACTS</a> |
+			<a href="/contacts/new">ADD A CONTACT</a> |
+		</div>
+	</nav>
+</head>
+<body>
+	<div class="container">
+		<div class="column-left"><%= yield %></div>
+		<div class="column-right">
+			<h1>Here's a picture of a cat for you all</h1>
+			<center><img src="http://www.cutecatgifs.com/wp-content/uploads/2013/11/YD0MuaF.gif" alt="icanhazclapz"></center>
+		</div>
+	</div>
+		<footer>
+			<p>Bitmaker Labs &copy;2015</p>
+		</footer>
 	</body>
 	
-	<footer>
-		this is my footer
-	</footer>
-
 	</html>
-

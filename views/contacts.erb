@@ -4,4 +4,6 @@
 <% $rolodex.contacts.each do |contact| %>
   <li><%= contact.first_name %> <%= contact.last_name %> <%contact.email %> <%= contact.note %></li>
 <% end %>
+
+<li><a href="/contacts/new">Add a Contact</a></li>
 </ul>
