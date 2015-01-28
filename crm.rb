@@ -14,6 +14,6 @@ get "/contacts" do
 end
 
 get '/contacts/new' do
-  @crm_app_name = "My CRM"		
+  		
   erb :new
 end
