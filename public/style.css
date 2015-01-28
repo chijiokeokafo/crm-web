@@ -1,4 +1,8 @@
+h1{
+	text-align: center;
+}
 .nav{
+	height: 25px;
 	background-color: orange;
 	margin-left: 0px;
 	margin-right: 0px;
